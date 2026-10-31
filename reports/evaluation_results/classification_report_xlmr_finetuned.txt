@@ -1,0 +1,12 @@
+XLM-RoBERTa base (fine-tuned on project data)
+Test reviews: 4223
+
+              precision    recall  f1-score   support
+
+    negative     0.8172    0.7863    0.8015      1507
+     neutral     0.4791    0.5472    0.5109       815
+    positive     0.8849    0.8574    0.8710      1901
+
+    accuracy                         0.7722      4223
+   macro avg     0.7271    0.7303    0.7278      4223
+weighted avg     0.7824    0.7722    0.7767      4223

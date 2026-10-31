@@ -1,0 +1,12 @@
+TF-IDF + Logistic Regression (one model per language)
+Test reviews: 4223
+
+              precision    recall  f1-score   support
+
+    negative     0.7290    0.7658    0.7469      1507
+     neutral     0.4388    0.4270    0.4328       815
+    positive     0.8273    0.8038    0.8154      1901
+
+    accuracy                         0.7175      4223
+   macro avg     0.6650    0.6655    0.6650      4223
+weighted avg     0.7172    0.7175    0.7171      4223

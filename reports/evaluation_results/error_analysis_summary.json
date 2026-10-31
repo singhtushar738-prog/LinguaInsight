@@ -1,0 +1,819 @@
+{
+  "tfidf_logreg": {
+    "errors": 1224,
+    "error_types": [
+      {
+        "true_label": "negative",
+        "predicted_label": "neutral",
+        "count": 273,
+        "share_of_errors": 0.223
+      },
+      {
+        "true_label": "neutral",
+        "predicted_label": "negative",
+        "count": 265,
+        "share_of_errors": 0.2165
+      },
+      {
+        "true_label": "positive",
+        "predicted_label": "neutral",
+        "count": 264,
+        "share_of_errors": 0.2157
+      },
+      {
+        "true_label": "neutral",
+        "predicted_label": "positive",
+        "count": 160,
+        "share_of_errors": 0.1307
+      },
+      {
+        "true_label": "positive",
+        "predicted_label": "negative",
+        "count": 148,
+        "share_of_errors": 0.1209
+      },
+      {
+        "true_label": "negative",
+        "predicted_label": "positive",
+        "count": 114,
+        "share_of_errors": 0.0931
+      }
+    ],
+    "errors_by_language": [
+      {
+        "language": "Hinglish (Hindi-English code-mixed)",
+        "n": 450,
+        "errors": 201,
+        "error_rate": 0.4467
+      },
+      {
+        "language": "Japanese",
+        "n": 450,
+        "errors": 166,
+        "error_rate": 0.3689
+      },
+      {
+        "language": "Chinese",
+        "n": 450,
+        "errors": 164,
+        "error_rate": 0.3644
+      },
+      {
+        "language": "English",
+        "n": 450,
+        "errors": 143,
+        "error_rate": 0.3178
+      },
+      {
+        "language": "Spanish",
+        "n": 450,
+        "errors": 128,
+        "error_rate": 0.2844
+      },
+      {
+        "language": "German",
+        "n": 450,
+        "errors": 127,
+        "error_rate": 0.2822
+      },
+      {
+        "language": "French",
+        "n": 450,
+        "errors": 122,
+        "error_rate": 0.2711
+      },
+      {
+        "language": "Italian",
+        "n": 450,
+        "errors": 80,
+        "error_rate": 0.1778
+      },
+      {
+        "language": "Portuguese",
+        "n": 450,
+        "errors": 80,
+        "error_rate": 0.1778
+      },
+      {
+        "language": "Hindi",
+        "n": 173,
+        "errors": 13,
+        "error_rate": 0.0751
+      }
+    ],
+    "cue_statistics": [
+      {
+        "cue": "negation",
+        "reviews_with_cue": 2291,
+        "error_rate_with_cue": 0.3199,
+        "error_rate_without_cue": 0.2541,
+        "difference": 0.0658
+      },
+      {
+        "cue": "contrast",
+        "reviews_with_cue": 1303,
+        "error_rate_with_cue": 0.3914,
+        "error_rate_without_cue": 0.2445,
+        "difference": 0.1469
+      },
+      {
+        "cue": "code_mixed",
+        "reviews_with_cue": 450,
+        "error_rate_with_cue": 0.4467,
+        "error_rate_without_cue": 0.2711,
+        "difference": 0.1755
+      },
+      {
+        "cue": "very_short",
+        "reviews_with_cue": 37,
+        "error_rate_with_cue": 0.2162,
+        "error_rate_without_cue": 0.2905,
+        "difference": -0.0743
+      },
+      {
+        "cue": "long",
+        "reviews_with_cue": 209,
+        "error_rate_with_cue": 0.2919,
+        "error_rate_without_cue": 0.2897,
+        "difference": 0.0021
+      },
+      {
+        "cue": "three_star_label",
+        "reviews_with_cue": 596,
+        "error_rate_with_cue": 0.5805,
+        "error_rate_without_cue": 0.2421,
+        "difference": 0.3385
+      }
+    ]
+  },
+  "tfidf_svm": {
+    "errors": 1390,
+    "error_types": [
+      {
+        "true_label": "neutral",
+        "predicted_label": "negative",
+        "count": 346,
+        "share_of_errors": 0.2489
+      },
+      {
+        "true_label": "positive",
+        "predicted_label": "neutral",
+        "count": 333,
+        "share_of_errors": 0.2396
+      },
+      {
+        "true_label": "positive",
+        "predicted_label": "negative",
+        "count": 217,
+        "share_of_errors": 0.1561
+      },
+      {
+        "true_label": "neutral",
+        "predicted_label": "positive",
+        "count": 203,
+        "share_of_errors": 0.146
+      },
+      {
+        "true_label": "negative",
+        "predicted_label": "positive",
+        "count": 157,
+        "share_of_errors": 0.1129
+      },
+      {
+        "true_label": "negative",
+        "predicted_label": "neutral",
+        "count": 134,
+        "share_of_errors": 0.0964
+      }
+    ],
+    "errors_by_language": [
+      {
+        "language": "Hinglish (Hindi-English code-mixed)",
+        "n": 450,
+        "errors": 189,
+        "error_rate": 0.42
+      },
+      {
+        "language": "French",
+        "n": 450,
+        "errors": 180,
+        "error_rate": 0.4
+      },
+      {
+        "language": "Spanish",
+        "n": 450,
+        "errors": 178,
+        "error_rate": 0.3956
+      },
+      {
+        "language": "Japanese",
+        "n": 450,
+        "errors": 174,
+        "error_rate": 0.3867
+      },
+      {
+        "language": "Chinese",
+        "n": 450,
+        "errors": 168,
+        "error_rate": 0.3733
+      },
+      {
+        "language": "English",
+        "n": 450,
+        "errors": 166,
+        "error_rate": 0.3689
+      },
+      {
+        "language": "German",
+        "n": 450,
+        "errors": 136,
+        "error_rate": 0.3022
+      },
+      {
+        "language": "Portuguese",
+        "n": 450,
+        "errors": 102,
+        "error_rate": 0.2267
+      },
+      {
+        "language": "Italian",
+        "n": 450,
+        "errors": 86,
+        "error_rate": 0.1911
+      },
+      {
+        "language": "Hindi",
+        "n": 173,
+        "errors": 11,
+        "error_rate": 0.0636
+      }
+    ],
+    "cue_statistics": [
+      {
+        "cue": "negation",
+        "reviews_with_cue": 2291,
+        "error_rate_with_cue": 0.3522,
+        "error_rate_without_cue": 0.3018,
+        "difference": 0.0505
+      },
+      {
+        "cue": "contrast",
+        "reviews_with_cue": 1303,
+        "error_rate_with_cue": 0.4267,
+        "error_rate_without_cue": 0.2856,
+        "difference": 0.1411
+      },
+      {
+        "cue": "code_mixed",
+        "reviews_with_cue": 450,
+        "error_rate_with_cue": 0.42,
+        "error_rate_without_cue": 0.3183,
+        "difference": 0.1017
+      },
+      {
+        "cue": "very_short",
+        "reviews_with_cue": 37,
+        "error_rate_with_cue": 0.2162,
+        "error_rate_without_cue": 0.3301,
+        "difference": -0.1139
+      },
+      {
+        "cue": "long",
+        "reviews_with_cue": 209,
+        "error_rate_with_cue": 0.3301,
+        "error_rate_without_cue": 0.3291,
+        "difference": 0.001
+      },
+      {
+        "cue": "three_star_label",
+        "reviews_with_cue": 596,
+        "error_rate_with_cue": 0.7399,
+        "error_rate_without_cue": 0.2616,
+        "difference": 0.4783
+      }
+    ]
+  },
+  "tfidf_logreg_per_language": {
+    "errors": 1193,
+    "error_types": [
+      {
+        "true_label": "neutral",
+        "predicted_label": "negative",
+        "count": 270,
+        "share_of_errors": 0.2263
+      },
+      {
+        "true_label": "negative",
+        "predicted_label": "neutral",
+        "count": 231,
+        "share_of_errors": 0.1936
+      },
+      {
+        "true_label": "positive",
+        "predicted_label": "neutral",
+        "count": 214,
+        "share_of_errors": 0.1794
+      },
+      {
+        "true_label": "neutral",
+        "predicted_label": "positive",
+        "count": 197,
+        "share_of_errors": 0.1651
+      },
+      {
+        "true_label": "positive",
+        "predicted_label": "negative",
+        "count": 159,
+        "share_of_errors": 0.1333
+      },
+      {
+        "true_label": "negative",
+        "predicted_label": "positive",
+        "count": 122,
+        "share_of_errors": 0.1023
+      }
+    ],
+    "errors_by_language": [
+      {
+        "language": "Hinglish (Hindi-English code-mixed)",
+        "n": 450,
+        "errors": 192,
+        "error_rate": 0.4267
+      },
+      {
+        "language": "Japanese",
+        "n": 450,
+        "errors": 158,
+        "error_rate": 0.3511
+      },
+      {
+        "language": "Chinese",
+        "n": 450,
+        "errors": 156,
+        "error_rate": 0.3467
+      },
+      {
+        "language": "English",
+        "n": 450,
+        "errors": 142,
+        "error_rate": 0.3156
+      },
+      {
+        "language": "Spanish",
+        "n": 450,
+        "errors": 133,
+        "error_rate": 0.2956
+      },
+      {
+        "language": "German",
+        "n": 450,
+        "errors": 123,
+        "error_rate": 0.2733
+      },
+      {
+        "language": "French",
+        "n": 450,
+        "errors": 117,
+        "error_rate": 0.26
+      },
+      {
+        "language": "Portuguese",
+        "n": 450,
+        "errors": 82,
+        "error_rate": 0.1822
+      },
+      {
+        "language": "Italian",
+        "n": 450,
+        "errors": 76,
+        "error_rate": 0.1689
+      },
+      {
+        "language": "Hindi",
+        "n": 173,
+        "errors": 14,
+        "error_rate": 0.0809
+      }
+    ],
+    "cue_statistics": [
+      {
+        "cue": "negation",
+        "reviews_with_cue": 2291,
+        "error_rate_with_cue": 0.3138,
+        "error_rate_without_cue": 0.2453,
+        "difference": 0.0685
+      },
+      {
+        "cue": "contrast",
+        "reviews_with_cue": 1303,
+        "error_rate_with_cue": 0.383,
+        "error_rate_without_cue": 0.2377,
+        "difference": 0.1453
+      },
+      {
+        "cue": "code_mixed",
+        "reviews_with_cue": 450,
+        "error_rate_with_cue": 0.4267,
+        "error_rate_without_cue": 0.2653,
+        "difference": 0.1614
+      },
+      {
+        "cue": "very_short",
+        "reviews_with_cue": 37,
+        "error_rate_with_cue": 0.1351,
+        "error_rate_without_cue": 0.2838,
+        "difference": -0.1487
+      },
+      {
+        "cue": "long",
+        "reviews_with_cue": 209,
+        "error_rate_with_cue": 0.2775,
+        "error_rate_without_cue": 0.2828,
+        "difference": -0.0052
+      },
+      {
+        "cue": "three_star_label",
+        "reviews_with_cue": 596,
+        "error_rate_with_cue": 0.552,
+        "error_rate_without_cue": 0.2382,
+        "difference": 0.3138
+      }
+    ]
+  },
+  "xlmr_finetuned": {
+    "errors": 962,
+    "error_types": [
+      {
+        "true_label": "negative",
+        "predicted_label": "neutral",
+        "count": 266,
+        "share_of_errors": 0.2765
+      },
+      {
+        "true_label": "positive",
+        "predicted_label": "neutral",
+        "count": 219,
+        "share_of_errors": 0.2277
+      },
+      {
+        "true_label": "neutral",
+        "predicted_label": "negative",
+        "count": 213,
+        "share_of_errors": 0.2214
+      },
+      {
+        "true_label": "neutral",
+        "predicted_label": "positive",
+        "count": 156,
+        "share_of_errors": 0.1622
+      },
+      {
+        "true_label": "negative",
+        "predicted_label": "positive",
+        "count": 56,
+        "share_of_errors": 0.0582
+      },
+      {
+        "true_label": "positive",
+        "predicted_label": "negative",
+        "count": 52,
+        "share_of_errors": 0.0541
+      }
+    ],
+    "errors_by_language": [
+      {
+        "language": "Hinglish (Hindi-English code-mixed)",
+        "n": 450,
+        "errors": 184,
+        "error_rate": 0.4089
+      },
+      {
+        "language": "Chinese",
+        "n": 450,
+        "errors": 139,
+        "error_rate": 0.3089
+      },
+      {
+        "language": "Japanese",
+        "n": 450,
+        "errors": 112,
+        "error_rate": 0.2489
+      },
+      {
+        "language": "German",
+        "n": 450,
+        "errors": 103,
+        "error_rate": 0.2289
+      },
+      {
+        "language": "Spanish",
+        "n": 450,
+        "errors": 98,
+        "error_rate": 0.2178
+      },
+      {
+        "language": "English",
+        "n": 450,
+        "errors": 96,
+        "error_rate": 0.2133
+      },
+      {
+        "language": "French",
+        "n": 450,
+        "errors": 89,
+        "error_rate": 0.1978
+      },
+      {
+        "language": "Portuguese",
+        "n": 450,
+        "errors": 65,
+        "error_rate": 0.1444
+      },
+      {
+        "language": "Italian",
+        "n": 450,
+        "errors": 63,
+        "error_rate": 0.14
+      },
+      {
+        "language": "Hindi",
+        "n": 173,
+        "errors": 13,
+        "error_rate": 0.0751
+      }
+    ],
+    "cue_statistics": [
+      {
+        "cue": "negation",
+        "reviews_with_cue": 2291,
+        "error_rate_with_cue": 0.2466,
+        "error_rate_without_cue": 0.2055,
+        "difference": 0.0411
+      },
+      {
+        "cue": "contrast",
+        "reviews_with_cue": 1303,
+        "error_rate_with_cue": 0.297,
+        "error_rate_without_cue": 0.1969,
+        "difference": 0.1001
+      },
+      {
+        "cue": "code_mixed",
+        "reviews_with_cue": 450,
+        "error_rate_with_cue": 0.4089,
+        "error_rate_without_cue": 0.2062,
+        "difference": 0.2027
+      },
+      {
+        "cue": "very_short",
+        "reviews_with_cue": 37,
+        "error_rate_with_cue": 0.1892,
+        "error_rate_without_cue": 0.2281,
+        "difference": -0.039
+      },
+      {
+        "cue": "long",
+        "reviews_with_cue": 209,
+        "error_rate_with_cue": 0.2153,
+        "error_rate_without_cue": 0.2285,
+        "difference": -0.0131
+      },
+      {
+        "cue": "three_star_label",
+        "reviews_with_cue": 596,
+        "error_rate_with_cue": 0.4631,
+        "error_rate_without_cue": 0.1891,
+        "difference": 0.274
+      }
+    ]
+  },
+  "xlmr_pretrained_sentiment": {
+    "errors": 1257,
+    "error_types": [
+      {
+        "true_label": "neutral",
+        "predicted_label": "negative",
+        "count": 463,
+        "share_of_errors": 0.3683
+      },
+      {
+        "true_label": "neutral",
+        "predicted_label": "positive",
+        "count": 229,
+        "share_of_errors": 0.1822
+      },
+      {
+        "true_label": "positive",
+        "predicted_label": "negative",
+        "count": 224,
+        "share_of_errors": 0.1782
+      },
+      {
+        "true_label": "positive",
+        "predicted_label": "neutral",
+        "count": 127,
+        "share_of_errors": 0.101
+      },
+      {
+        "true_label": "negative",
+        "predicted_label": "neutral",
+        "count": 124,
+        "share_of_errors": 0.0986
+      },
+      {
+        "true_label": "negative",
+        "predicted_label": "positive",
+        "count": 90,
+        "share_of_errors": 0.0716
+      }
+    ],
+    "errors_by_language": [
+      {
+        "language": "Hinglish (Hindi-English code-mixed)",
+        "n": 450,
+        "errors": 200,
+        "error_rate": 0.4444
+      },
+      {
+        "language": "Chinese",
+        "n": 450,
+        "errors": 169,
+        "error_rate": 0.3756
+      },
+      {
+        "language": "English",
+        "n": 450,
+        "errors": 144,
+        "error_rate": 0.32
+      },
+      {
+        "language": "German",
+        "n": 450,
+        "errors": 144,
+        "error_rate": 0.32
+      },
+      {
+        "language": "French",
+        "n": 450,
+        "errors": 132,
+        "error_rate": 0.2933
+      },
+      {
+        "language": "Japanese",
+        "n": 450,
+        "errors": 120,
+        "error_rate": 0.2667
+      },
+      {
+        "language": "Spanish",
+        "n": 450,
+        "errors": 115,
+        "error_rate": 0.2556
+      },
+      {
+        "language": "Hindi",
+        "n": 173,
+        "errors": 44,
+        "error_rate": 0.2543
+      },
+      {
+        "language": "Italian",
+        "n": 450,
+        "errors": 106,
+        "error_rate": 0.2356
+      },
+      {
+        "language": "Portuguese",
+        "n": 450,
+        "errors": 83,
+        "error_rate": 0.1844
+      }
+    ],
+    "cue_statistics": [
+      {
+        "cue": "negation",
+        "reviews_with_cue": 2291,
+        "error_rate_with_cue": 0.3243,
+        "error_rate_without_cue": 0.266,
+        "difference": 0.0583
+      },
+      {
+        "cue": "contrast",
+        "reviews_with_cue": 1303,
+        "error_rate_with_cue": 0.4045,
+        "error_rate_without_cue": 0.25,
+        "difference": 0.1545
+      },
+      {
+        "cue": "code_mixed",
+        "reviews_with_cue": 450,
+        "error_rate_with_cue": 0.4444,
+        "error_rate_without_cue": 0.2801,
+        "difference": 0.1643
+      },
+      {
+        "cue": "very_short",
+        "reviews_with_cue": 37,
+        "error_rate_with_cue": 0.2703,
+        "error_rate_without_cue": 0.2979,
+        "difference": -0.0276
+      },
+      {
+        "cue": "long",
+        "reviews_with_cue": 209,
+        "error_rate_with_cue": 0.3732,
+        "error_rate_without_cue": 0.2937,
+        "difference": 0.0795
+      },
+      {
+        "cue": "three_star_label",
+        "reviews_with_cue": 596,
+        "error_rate_with_cue": 0.8591,
+        "error_rate_without_cue": 0.2054,
+        "difference": 0.6537
+      }
+    ]
+  },
+  "disagreement_lr_vs_xlmr": [
+    {
+      "language": "Hinglish (Hindi-English code-mixed)",
+      "neither": 19,
+      "tfidf_logreg": 67,
+      "xlmr_finetuned": 84,
+      "disagreements": 170,
+      "disagreement_rate": 0.3778
+    },
+    {
+      "language": "Japanese",
+      "neither": 23,
+      "tfidf_logreg": 24,
+      "xlmr_finetuned": 78,
+      "disagreements": 125,
+      "disagreement_rate": 0.2778
+    },
+    {
+      "language": "Chinese",
+      "neither": 19,
+      "tfidf_logreg": 39,
+      "xlmr_finetuned": 64,
+      "disagreements": 122,
+      "disagreement_rate": 0.2711
+    },
+    {
+      "language": "English",
+      "neither": 15,
+      "tfidf_logreg": 29,
+      "xlmr_finetuned": 76,
+      "disagreements": 120,
+      "disagreement_rate": 0.2667
+    },
+    {
+      "language": "Spanish",
+      "neither": 15,
+      "tfidf_logreg": 35,
+      "xlmr_finetuned": 65,
+      "disagreements": 115,
+      "disagreement_rate": 0.2556
+    },
+    {
+      "language": "French",
+      "neither": 14,
+      "tfidf_logreg": 31,
+      "xlmr_finetuned": 64,
+      "disagreements": 109,
+      "disagreement_rate": 0.2422
+    },
+    {
+      "language": "German",
+      "neither": 16,
+      "tfidf_logreg": 31,
+      "xlmr_finetuned": 55,
+      "disagreements": 102,
+      "disagreement_rate": 0.2267
+    },
+    {
+      "language": "Italian",
+      "neither": 14,
+      "tfidf_logreg": 25,
+      "xlmr_finetuned": 42,
+      "disagreements": 81,
+      "disagreement_rate": 0.18
+    },
+    {
+      "language": "Hindi",
+      "neither": 0,
+      "tfidf_logreg": 11,
+      "xlmr_finetuned": 11,
+      "disagreements": 22,
+      "disagreement_rate": 0.1272
+    },
+    {
+      "language": "Portuguese",
+      "neither": 8,
+      "tfidf_logreg": 15,
+      "xlmr_finetuned": 30,
+      "disagreements": 53,
+      "disagreement_rate": 0.1178
+    }
+  ]
+}

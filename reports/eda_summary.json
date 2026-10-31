@@ -1,0 +1,163 @@
+{
+  "overview": {
+    "total_reviews": 28152,
+    "languages": 10,
+    "positive": 12675,
+    "negative": 10048,
+    "neutral": 5429,
+    "sources": 5,
+    "split_sizes": {
+      "train": 19706,
+      "test": 4223,
+      "val": 4223
+    }
+  },
+  "duplicates": {
+    "duplicate_texts_in_processed_data": 0,
+    "duplicate_review_ids": 0
+  },
+  "length_statistics": [
+    {
+      "language_name": "Chinese",
+      "reviews": 3000,
+      "mean_chars": 58.6,
+      "median_chars": 45.0,
+      "max_chars": 546,
+      "mean_words": 58.6,
+      "median_words": 45.0
+    },
+    {
+      "language_name": "English",
+      "reviews": 3000,
+      "mean_chars": 204.1,
+      "median_chars": 158.0,
+      "max_chars": 2482,
+      "mean_words": 38.6,
+      "median_words": 30.0
+    },
+    {
+      "language_name": "French",
+      "reviews": 3000,
+      "mean_chars": 175.5,
+      "median_chars": 143.0,
+      "max_chars": 1305,
+      "mean_words": 30.1,
+      "median_words": 24.0
+    },
+    {
+      "language_name": "German",
+      "reviews": 3000,
+      "mean_chars": 231.1,
+      "median_chars": 179.0,
+      "max_chars": 3813,
+      "mean_words": 36.3,
+      "median_words": 28.0
+    },
+    {
+      "language_name": "Hinglish (Hindi-English code-mixed)",
+      "reviews": 3000,
+      "mean_chars": 110.1,
+      "median_chars": 119.0,
+      "max_chars": 164,
+      "mean_words": 19.1,
+      "median_words": 20.0
+    },
+    {
+      "language_name": "Italian",
+      "reviews": 3000,
+      "mean_chars": 591.7,
+      "median_chars": 422.0,
+      "max_chars": 5470,
+      "mean_words": 100.0,
+      "median_words": 72.0
+    },
+    {
+      "language_name": "Portuguese",
+      "reviews": 3000,
+      "mean_chars": 149.4,
+      "median_chars": 112.0,
+      "max_chars": 1418,
+      "mean_words": 24.9,
+      "median_words": 18.0
+    },
+    {
+      "language_name": "Japanese",
+      "reviews": 3000,
+      "mean_chars": 109.3,
+      "median_chars": 82.0,
+      "max_chars": 1232,
+      "mean_words": 109.3,
+      "median_words": 82.0
+    },
+    {
+      "language_name": "Spanish",
+      "reviews": 3000,
+      "mean_chars": 173.3,
+      "median_chars": 141.0,
+      "max_chars": 1688,
+      "mean_words": 31.5,
+      "median_words": 25.0
+    },
+    {
+      "language_name": "Hindi",
+      "reviews": 1152,
+      "mean_chars": 134.7,
+      "median_chars": 125.0,
+      "max_chars": 516,
+      "mean_words": 26.9,
+      "median_words": 25.0
+    }
+  ],
+  "sentiment_share_by_language": {
+    "Chinese": {
+      "negative": 0.4,
+      "neutral": 0.2,
+      "positive": 0.4
+    },
+    "English": {
+      "negative": 0.4,
+      "neutral": 0.2,
+      "positive": 0.4
+    },
+    "French": {
+      "negative": 0.4,
+      "neutral": 0.2,
+      "positive": 0.4
+    },
+    "German": {
+      "negative": 0.4,
+      "neutral": 0.2,
+      "positive": 0.4
+    },
+    "Hindi": {
+      "negative": 0.497,
+      "neutral": 0.0,
+      "positive": 0.503
+    },
+    "Hinglish (Hindi-English code-mixed)": {
+      "negative": 0.294,
+      "neutral": 0.377,
+      "positive": 0.33
+    },
+    "Italian": {
+      "negative": 0.202,
+      "neutral": 0.109,
+      "positive": 0.69
+    },
+    "Japanese": {
+      "negative": 0.4,
+      "neutral": 0.2,
+      "positive": 0.4
+    },
+    "Portuguese": {
+      "negative": 0.263,
+      "neutral": 0.124,
+      "positive": 0.612
+    },
+    "Spanish": {
+      "negative": 0.4,
+      "neutral": 0.2,
+      "positive": 0.4
+    }
+  }
+}

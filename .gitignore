@@ -1,0 +1,50 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Large / downloadable artefacts
+data/raw/
+data/nltk_data/
+models/hf_cache/
+models/transformer/
+logs/
+
+# Keep trained classical models in GitHub
+!models/classical/*.joblib
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local databases and temporary files
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Third-party review datasets
+data/processed/*.csv
+data/evaluation/*.csv
+assets/sample_reviews.csv
+
+# Keep project-created Hinglish lexicon
+!data/processed/hinglish_lexicon.csv
+
+# Review-level error examples
+reports/evaluation_results/error_examples.csv
+
+# Internal UI redesign notes
+UI_REDESIGN_NOTES*.md

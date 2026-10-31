@@ -1,0 +1,12 @@
+XLM-RoBERTa sentiment (pretrained, not fine-tuned here)
+Test reviews: 4223
+
+              precision    recall  f1-score   support
+
+    negative     0.6530    0.8580    0.7416      1507
+     neutral     0.3289    0.1509    0.2069       815
+    positive     0.8293    0.8154    0.8223      1901
+
+    accuracy                         0.7023      4223
+   macro avg     0.6037    0.6081    0.5903      4223
+weighted avg     0.6698    0.7023    0.6747      4223

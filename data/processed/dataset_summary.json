@@ -1,0 +1,210 @@
+{
+  "total_records": 28152,
+  "random_seed": 42,
+  "samples_per_language_cap": 3000,
+  "removed_cross_language_duplicates": 0,
+  "split_sizes": {
+    "train": 19706,
+    "test": 4223,
+    "val": 4223
+  },
+  "label_counts": {
+    "positive": 12675,
+    "negative": 10048,
+    "neutral": 5429
+  },
+  "rating_to_sentiment_mapping": {
+    "1": "negative",
+    "2": "negative",
+    "3": "neutral",
+    "4": "positive",
+    "5": "positive"
+  },
+  "per_language": {
+    "en": {
+      "source": "marc",
+      "raw_records": 10000,
+      "raw_label_counts": {
+        "negative": 4000,
+        "positive": 4000,
+        "neutral": 2000
+      },
+      "removed_missing_or_empty": 0,
+      "removed_invalid_label": 0,
+      "removed_conflicting_duplicates": 0,
+      "removed_duplicates": 0,
+      "clean_records": 10000,
+      "sampled_records": 3000
+    },
+    "de": {
+      "source": "marc",
+      "raw_records": 10000,
+      "raw_label_counts": {
+        "negative": 4000,
+        "positive": 4000,
+        "neutral": 2000
+      },
+      "removed_missing_or_empty": 0,
+      "removed_invalid_label": 0,
+      "removed_conflicting_duplicates": 0,
+      "removed_duplicates": 0,
+      "clean_records": 10000,
+      "sampled_records": 3000
+    },
+    "es": {
+      "source": "marc",
+      "raw_records": 10000,
+      "raw_label_counts": {
+        "negative": 4000,
+        "positive": 4000,
+        "neutral": 2000
+      },
+      "removed_missing_or_empty": 0,
+      "removed_invalid_label": 0,
+      "removed_conflicting_duplicates": 0,
+      "removed_duplicates": 2,
+      "clean_records": 9998,
+      "sampled_records": 3000
+    },
+    "fr": {
+      "source": "marc",
+      "raw_records": 10000,
+      "raw_label_counts": {
+        "negative": 4000,
+        "positive": 4000,
+        "neutral": 2000
+      },
+      "removed_missing_or_empty": 0,
+      "removed_invalid_label": 0,
+      "removed_conflicting_duplicates": 0,
+      "removed_duplicates": 3,
+      "clean_records": 9997,
+      "sampled_records": 3000
+    },
+    "it": {
+      "source": "yelp_it",
+      "raw_records": 5250,
+      "raw_label_counts": {
+        "positive": 3620,
+        "negative": 1059,
+        "neutral": 571
+      },
+      "removed_missing_or_empty": 0,
+      "removed_invalid_label": 0,
+      "removed_conflicting_duplicates": 0,
+      "removed_duplicates": 0,
+      "clean_records": 5250,
+      "sampled_records": 3000
+    },
+    "pt": {
+      "source": "b2w",
+      "raw_records": 132373,
+      "raw_label_counts": {
+        "positive": 80300,
+        "negative": 35758,
+        "neutral": 16315
+      },
+      "removed_missing_or_empty": 134,
+      "removed_invalid_label": 0,
+      "removed_conflicting_duplicates": 460,
+      "removed_duplicates": 2569,
+      "clean_records": 129210,
+      "sampled_records": 3000
+    },
+    "hi": {
+      "source": "indicsentiment",
+      "raw_records": 1156,
+      "raw_label_counts": {
+        "positive": 581,
+        "negative": 573
+      },
+      "removed_missing_or_empty": 0,
+      "removed_invalid_label": 2,
+      "removed_conflicting_duplicates": 0,
+      "removed_duplicates": 2,
+      "clean_records": 1152,
+      "sampled_records": 1152
+    },
+    "ja": {
+      "source": "marc",
+      "raw_records": 10000,
+      "raw_label_counts": {
+        "negative": 4000,
+        "positive": 4000,
+        "neutral": 2000
+      },
+      "removed_missing_or_empty": 0,
+      "removed_invalid_label": 0,
+      "removed_conflicting_duplicates": 0,
+      "removed_duplicates": 0,
+      "clean_records": 10000,
+      "sampled_records": 3000
+    },
+    "zh": {
+      "source": "marc",
+      "raw_records": 10000,
+      "raw_label_counts": {
+        "negative": 4000,
+        "positive": 4000,
+        "neutral": 2000
+      },
+      "removed_missing_or_empty": 0,
+      "removed_invalid_label": 0,
+      "removed_conflicting_duplicates": 2,
+      "removed_duplicates": 7,
+      "clean_records": 9991,
+      "sampled_records": 3000
+    },
+    "hi-en": {
+      "source": "sentimix",
+      "raw_records": 14000,
+      "raw_label_counts": {
+        "neutral": 5264,
+        "positive": 4634,
+        "negative": 4102
+      },
+      "removed_missing_or_empty": 0,
+      "removed_invalid_label": 0,
+      "removed_conflicting_duplicates": 93,
+      "removed_duplicates": 75,
+      "clean_records": 13832,
+      "sampled_records": 3000
+    }
+  },
+  "sources": {
+    "marc": {
+      "name": "MARC - Multilingual Amazon Reviews Corpus",
+      "url": "https://huggingface.co/datasets/mteb/amazon_reviews_multi",
+      "license": "Amazon MARC licence (non-commercial research use)"
+    },
+    "b2w": {
+      "name": "B2W-Reviews01 (Brazilian Portuguese e-commerce reviews)",
+      "url": "https://github.com/americanas-tech/b2w-reviews01",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "indicsentiment": {
+      "name": "AI4Bharat IndicSentiment (Hindi)",
+      "url": "https://huggingface.co/datasets/ai4bharat/IndicSentiment",
+      "license": "CC0 1.0"
+    },
+    "yelp_it": {
+      "name": "Italian Yelp reviews (machine-translated)",
+      "url": "https://huggingface.co/datasets/yeniguno/italian-yelp-reviews-dataset",
+      "license": "Yelp Open Dataset terms (derived)"
+    },
+    "sentimix": {
+      "name": "SentiMix Hinglish - SemEval-2020 Task 9",
+      "url": "https://huggingface.co/datasets/RTT1/SentiMix",
+      "license": "Research use (SemEval-2020 shared task data)"
+    }
+  },
+  "hinglish_lexicon_size": {
+    "hi": 1155,
+    "en": 410
+  },
+  "hinglish_lexicon_eval_sentimix_dev": {
+    "tokens_evaluated": 59842,
+    "coverage": 0.3949,
+    "accuracy_on_covered_tokens": 0.9566
+  }
+}

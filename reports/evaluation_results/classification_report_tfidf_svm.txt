@@ -1,0 +1,12 @@
+TF-IDF + Linear SVM (shared multilingual)
+Test reviews: 4223
+
+              precision    recall  f1-score   support
+
+    negative     0.6835    0.8069    0.7401      1507
+     neutral     0.3629    0.3264    0.3437       815
+    positive     0.7896    0.7107    0.7481      1901
+
+    accuracy                         0.6709      4223
+   macro avg     0.6120    0.6147    0.6106      4223
+weighted avg     0.6694    0.6709    0.6672      4223
